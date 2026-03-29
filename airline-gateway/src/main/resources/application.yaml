@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: airline-gateway
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+backend:
+  base-url: http://localhost:8080
